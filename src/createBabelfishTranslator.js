@@ -3,7 +3,7 @@
 import type {
     Translator,
     NeedTranslate
-} from 'any-translate/i/interfaces'
+} from 'any-translate'
 
 import Babelfish from 'babelfish'
 import LocalizedBabelfish from 'any-translate-adapter-babelfish/LocalizedBabelfish'

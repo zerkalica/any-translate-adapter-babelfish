@@ -12,17 +12,11 @@ examples/.*
 .*/node_modules/b.*
 .*/node_modules/spdx.*
 
-[libs]
-lib
-node_modules/any-translate/lib
-
 [options]
 munge_underscores=true
 esproposal.decorators=ignore
 esproposal.class_static_fields=enable
 esproposal.class_instance_fields=enable
 suppress_comment= \\(.\\|\n\\)*\\$FlowDisable
-module.name_mapper='.*\(\.css\)' -> 'empty/object'
-module.name_mapper='.*\(\.configloaderrc\)' -> 'empty/object'
 module.name_mapper='^any-translate-adapter-babelfish/i/\(.*\)' -> '<PROJECT_ROOT>/i/\1'
 module.name_mapper='^any-translate-adapter-babelfish/\(.*\)' -> '<PROJECT_ROOT>/src/\1'

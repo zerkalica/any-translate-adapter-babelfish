@@ -3,9 +3,9 @@
 import type {
     NeedTranslate,
     TranslateArgs
-} from 'any-translate/i/interfaces'
+} from 'any-translate'
 
-import type {Babelfish} from 'babelfish'
+import type Babelfish from 'babelfish'
 
 import flattenObject from 'any-translate-adapter-babelfish/flattenObject'
 
@@ -47,7 +47,7 @@ export default class LocalizedBabelfish {
             bf.addPhrase(locale, message, message)
         }
 
-        return bf.translate(locale, message, params || {})
+        return bf.t(locale, message, params || {})
     }
 
     has(message: string): boolean {

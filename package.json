@@ -48,7 +48,8 @@
     "i"
   ],
   "dependencies": {
-    "any-translate": "0.x.x"
+    "any-translate": "0.x.x",
+    "babelfish": "^1.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
