@@ -1,6 +1,6 @@
 {
   "name": "any-translate-adapter-babelfish",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Babelfish adapter for any-translate",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
